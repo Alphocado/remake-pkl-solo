@@ -1,0 +1,19 @@
+/* @import "font-awesome/css/font-awesome"; */
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#addImg:hover i {
+    display: block;
+}
+
+#addImg i {
+    display: hidden;
+}
+
+.space-char-title {
+    letter-spacing: 10px;
+}
